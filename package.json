@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,16 @@
     "@truffle/hdwallet-provider": "^2.0.4",
     "web3": "^1.7.1",
     "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "webpack-cli": "^4.9.2"
   }
 }
