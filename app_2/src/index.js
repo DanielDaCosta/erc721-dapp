@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import starNotaryArtifact from "../build/contracts/StarNotary.json";
+import starNotaryArtifact from "../../build/contracts/StarNotary.json";
 
 const App = {
   web3: null,
@@ -36,6 +36,7 @@ const App = {
     const name = document.getElementById("starName").value;
     const id = document.getElementById("starId").value;
     await createStar(name, id).send({from: this.account});
+    // console.log(this.account)
     App.setStatus("New Star Owner is " + this.account + ".");
   },
 
