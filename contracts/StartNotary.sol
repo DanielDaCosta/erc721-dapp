@@ -16,7 +16,13 @@ contract StarNotary is ERC721 {
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
-    constructor() ERC721("Daniel Token", "DPC") {}
+    // string TokenName;
+    // string TokenSymbol;
+
+    constructor() ERC721("Daniel Token", "DPC") {
+        // TokenName = name();
+        // TokenSymbol = symbol();
+    }
     
 
     // mapping the Star with the Owner Address
