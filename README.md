@@ -1,5 +1,6 @@
 # ERC721 Dapp
 
+![Frontend](images\dapp-frontend.png)
 # Requirements
 
 ```json
