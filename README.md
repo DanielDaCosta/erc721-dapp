@@ -1,4 +1,4 @@
-# ERC721 Dapp
+# ERC721-Dapp
 
 ![Frontend](images/dapp-frontend.png)
 # Requirements
